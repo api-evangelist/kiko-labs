@@ -1,7 +1,12 @@
 aid: kiko-labs
 name: Kiko Labs
-description: Kiko Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kiko Labs is a neuroscience-based early-learning company (a 500 Global portfolio company)
+  that builds adaptive brain-training games for children ages 3-7. Its flagship product, Kiko's Thinking
+  Time, is a voice-guided iOS app developed with Harvard and UC Berkeley neuroscientists with support
+  from the US Department of Education and National Science Foundation. The program trains executive
+  functions — working memory, inhibition, focus, and cognitive flexibility — through progressive games,
+  and includes a parent and educator dashboard for tracking skill development. Kiko Labs is a consumer
+  edtech company and does not currently publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/kiko-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Consumer edtech mobile app; no public API, developer portal, or /.well-known surface
+  found (all probed 2026-07-19). Enrichment limited to identity hygiene + domain-security probe.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://dn1jv34q12yrt.cloudfront.net/assets/images/background/logo.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Children
+- Neuroscience
+- Cognitive Training
+- Mobile App
+- Executive Function
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kikolabs.com
+  url: https://www.kikolabs.com
+- type: Blog
+  url: https://www.kikolabs.com/blog
+- type: PrivacyPolicy
+  url: https://www.kikolabs.com/privacy-policy
+- type: Support
+  url: https://www.kikolabs.com/contact-us
+- type: Login
+  url: https://www.kikolabs.com/portal/login
+- type: DomainSecurity
+  url: security/kiko-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
