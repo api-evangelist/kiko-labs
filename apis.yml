@@ -16,6 +16,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-enrichment-note: 'Consumer edtech mobile app; no public API, developer portal, or /.well-known surface
   found (all probed 2026-07-19). Enrichment limited to identity hygiene + domain-security probe.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
